@@ -13,7 +13,7 @@ use App\Http\Controllers\AlbumController;
 Route::resource('albums', AlbumController::class);
 
 Route::get('/', function (Request $request) {
-    return "view('welcome')";
+   return "view('welcome')";
 });
 
 Route::get('/users', function () {
